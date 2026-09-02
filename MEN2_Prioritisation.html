@@ -90,7 +90,7 @@ input[type=range]::-moz-range-thumb{
     <p class="lede">Thanks for sharing your solutions for root causes #1 and #2 during our Leadership Workshop. In terms of next steps, we'll ask you to prioritise them with a short questionnaire.</p>
     <label class="field">
       <span>YOUR NAME</span>
-      <input type="text" id="hodName" placeholder="e.g. Wade" autocomplete="off">
+      <input type="text" id="hodName" placeholder="e.g. Syafiq" autocomplete="off">
     </label>
     <button class="btn" id="startBtn" type="button" disabled>Start</button>
   </section>
@@ -174,20 +174,20 @@ const db = getFirestore(app);
    submissions keep lining up correctly.
    ------------------------------------------------------------------ */
 const INITIATIVES = [
-  { id: "i01", text: "Set up overlapping roles and responsibilities" },
-  { id: "i02", text: "Have a clear process lead" },
-  { id: "i03", text: "HODs commit to what needs to be done \u2014 HODs can disagree during meetings, but they commit to a decision once it\u2019s made" },
-  { id: "i04", text: "Clearly communicate decisions with entire organisation" },
-  { id: "i05", text: "Implement a common approach to problem solving (e.g. DMAIC)" },
-  { id: "i06", text: "Develop a reward system (e.g. team members can earn points to redeem gift etc.)" },
-  { id: "i07", text: "Start goals-setting / OKRs development earlier \u2014 review if goals will affect other departments / opportunities for cross-functional collaboration" },
-  { id: "i08", text: "Cultivate a collaborative culture" },
-  { id: "i09", text: "Set up dedicated cross-functional teams \u2014 dry team and wet team" },
-  { id: "i10", text: "Reduce reaction time \u2014 clear alarm system for escalation with production dashboard" },
-  { id: "i11", text: "Empower line supervisors to stop lines if there are issues \u2014 reduce production of defects" },
-  { id: "i12", text: "Information sharing via Teams" },
-  { id: "i13", text: "Encourage feedback loops after decisions are made" },
-  { id: "i14", text: "Build knowledge database" }
+  { id: "01", text: "Set up overlapping roles and responsibilities" },
+  { id: "02", text: "Have a clear process lead" },
+  { id: "03", text: "HODs commit to what needs to be done \u2014 HODs can disagree during meetings, but they commit to a decision once it\u2019s made" },
+  { id: "04", text: "Clearly communicate decisions with entire organisation" },
+  { id: "05", text: "Implement a common approach to problem solving (e.g. DMAIC)" },
+  { id: "06", text: "Develop a reward system (e.g. team members can earn points to redeem gift etc.)" },
+  { id: "07", text: "Start goals-setting / OKRs development earlier \u2014 review if goals will affect other departments / opportunities for cross-functional collaboration" },
+  { id: "08", text: "Cultivate a collaborative culture" },
+  { id: "09", text: "Set up dedicated cross-functional teams \u2014 dry team and wet team" },
+  { id: "10", text: "Reduce reaction time \u2014 clear alarm system for escalation with production dashboard" },
+  { id: "11", text: "Empower line supervisors to stop lines if there are issues \u2014 reduce production of defects" },
+  { id: "12", text: "Information sharing via Teams" },
+  { id: "13", text: "Encourage feedback loops after decisions are made" },
+  { id: "14", text: "Build knowledge database" }
 ];
 
 const DIMS = ["impact","time","cost","complexity","scalability"];
