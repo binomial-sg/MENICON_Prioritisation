@@ -92,20 +92,20 @@ const db = getFirestore(app);
 
 /* Keep this identical to the list in index.html so ids/labels match. */
 const INITIATIVES = [
-  { id: "i01", text: "Set up overlapping roles and responsibilities" },
-  { id: "i02", text: "Have a clear process lead" },
-  { id: "i03", text: "HODs commit to what needs to be done" },
-  { id: "i04", text: "Clearly communicate decisions with entire organisation" },
-  { id: "i05", text: "Implement a common approach to problem solving (e.g. DMAIC)" },
-  { id: "i06", text: "Develop a reward system" },
-  { id: "i07", text: "Start goals-setting / OKRs development earlier" },
-  { id: "i08", text: "Cultivate a collaborative culture" },
-  { id: "i09", text: "Set up dedicated cross-functional teams (dry/wet)" },
-  { id: "i10", text: "Reduce reaction time \u2014 clear alarm system" },
-  { id: "i11", text: "Empower line supervisors to stop lines" },
-  { id: "i12", text: "Information sharing via Teams" },
-  { id: "i13", text: "Encourage feedback loops after decisions" },
-  { id: "i14", text: "Build knowledge database" }
+  { id: "01", text: "Set up overlapping roles and responsibilities" },
+  { id: "02", text: "Have a clear process lead" },
+  { id: "03", text: "HODs commit to what needs to be done" },
+  { id: "04", text: "Clearly communicate decisions with entire organisation" },
+  { id: "05", text: "Implement a common approach to problem solving (e.g. DMAIC)" },
+  { id: "06", text: "Develop a reward system" },
+  { id: "07", text: "Start goals-setting / OKRs development earlier" },
+  { id: "08", text: "Cultivate a collaborative culture" },
+  { id: "09", text: "Set up dedicated cross-functional teams (dry/wet)" },
+  { id: "10", text: "Reduce reaction time \u2014 clear alarm system" },
+  { id: "11", text: "Empower line supervisors to stop lines" },
+  { id: "12", text: "Information sharing via Teams" },
+  { id: "13", text: "Encourage feedback loops after decisions" },
+  { id: "14", text: "Build knowledge database" }
 ];
 const byId = Object.fromEntries(INITIATIVES.map(i => [i.id, i.text]));
 
